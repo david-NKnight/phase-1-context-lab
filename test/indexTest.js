@@ -192,7 +192,7 @@ describe("The payroll system", function () {
         // Earns 54
         createTimeInEvent.call(cRecord, "2044-03-15 0900")
         createTimeOutEvent.call(cRecord, "2044-03-15 1100")
-        // 324 + 54
+        
         expect(allWagesFor.call(cRecord)).to.equal(378)
       })
 

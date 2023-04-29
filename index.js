@@ -152,3 +152,6 @@ const csvTimesOut = [
    ["Anthony", ["2018-01-01 1400", "2018-01-02 1400", "2018-01-03 1400"]]
 ]
 
+function aggregateAllWages(employee) {
+  return allWagesFor.call(employee);
+}
